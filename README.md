@@ -88,6 +88,7 @@ The request body must include the following fields:
     "email": "john.doe@example.com"
   }
 }
+<<<<<<< HEAD
 ```
 
 # User API
@@ -115,3 +116,6 @@ The request body must include the following fields:
   "message": "Unauthorized"
 }
 ```
+=======
+```
+>>>>>>> c3ca635 (first commit)
