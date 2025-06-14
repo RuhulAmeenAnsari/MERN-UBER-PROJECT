@@ -88,34 +88,4 @@ The request body must include the following fields:
     "email": "john.doe@example.com"
   }
 }
-<<<<<<< HEAD
 ```
-
-# User API
-
-## Endpoints
-
-### `/users/profile`
-**Method:** GET  
-**Description:** Fetches the profile of the currently authenticated user.  
-
-**Request Headers:**
-- `Authorization`: Bearer token (required)
-
-**Response:**
-- **200 OK**: Returns the user profile.
-  ```json
-  {
-    "id": "user_id",
-    "name": "User Name",
-    "email": "user@example.com"
-  }
-
- ```json
-  {
-  "message": "Unauthorized"
-}
-```
-=======
-```
->>>>>>> c3ca635 (first commit)
